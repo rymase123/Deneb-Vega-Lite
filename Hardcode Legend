@@ -1,0 +1,63 @@
+{
+  "vconcat": [
+    {
+      "name": "Legend",
+      "width": 900,
+      "height": 200,
+      "data": {
+        "values": [
+          {
+            "legend_id": 1,
+            "legend_size": 1,
+            "legend_label": "4 Week Actual"
+          },
+          {
+            "legend_id": 2,
+            "legend_size": 1,
+            "legend_label": "4 Week Estimate"
+          },
+          {
+            "legend_id": 3,
+            "legend_size": 1,
+            "legend_label": "Actual Draw"
+          }
+        ]
+      },
+      "mark": {
+        "type": "arc",
+        "radius": 0
+      },
+      "encoding": {
+        "theta": {
+          "field": "legend_size",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "legend_label",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "4 Week Actual",
+              "4 Week Estimate",
+              "Actual Draw"
+            ],
+            "range": [
+              "green",
+              "yellow",
+              "blue"
+            ]
+          },
+          "legend": {
+            "orient": "top-left",
+            "direction": "horizontal",
+            "title": null,
+            "offset": 0,
+            "labelColor": "black",
+            "symbolSize": 20,
+            "symbolType": "circle"
+          }
+        }
+      }
+    }
+  ]
+}
