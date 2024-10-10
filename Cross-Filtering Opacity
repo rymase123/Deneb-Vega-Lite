@@ -1,6 +1,6 @@
 // Make sure you set the Settings to "Expose cross-highlighting values for measures" and "Expose cross-filtering values for dataset rows"
-// encoding for mark
 
+{"mark"....},
 
 "encoding": {
   "opacity": {
