@@ -1,0 +1,15 @@
+// Make sure you set the Settings to "Expose cross-highlighting values for measures"
+
+
+"encoding": {
+  "opacity": {
+    "condition": {
+      "test": {
+        "field": "__selected__",
+        "equal": "off"
+      },
+      "value": 0.2
+    },
+    "value": 1
+  }
+}
